@@ -1,0 +1,22 @@
+g:
+
+cd G:\compus\OO\improve
+:loop
+python ./createdata.py
+
+java MainClass <input.txt> output.txt
+
+python ./handle.py
+
+python ./check.py
+
+for /f %%i in (answer.txt) do (
+for /f %%e in ('findstr /c:"%%i" ac.txt') do (
+if not "%%i" == "%%e" (echo %%i>>wrong.txt
+goto done
+)
+)
+)
+goto loop
+:done
+pause

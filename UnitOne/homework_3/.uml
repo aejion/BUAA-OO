@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1313.0" y="1574.0">com</node>
+    <node x="324.0127314814816" y="403.0">Ter</node>
+    <node x="242.0" y="1574.0">netscape</node>
+    <node x="555.0023148148149" y="190.0">Constant</node>
+    <node x="1469.0" y="1574.0">sun</node>
+    <node x="467.9502314814816" y="971.0">CreateFac</node>
+    <node x="0.0" y="1574.0">groovyjarjarasm</node>
+    <node x="1150.0" y="1574.0">java</node>
+    <node x="980.0" y="1574.0">javax</node>
+    <node x="629.5015432098766" y="1098.0">FindOptional</node>
+    <node x="489.74999999999994" y="0.0">Factor</node>
+    <node x="626.0" y="1574.0">javafx</node>
+    <node x="1625.0" y="1574.0">org</node>
+    <node x="453.9502314814816" y="639.0">Cos</node>
+    <node x="188.99999999999994" y="223.0">Term</node>
+    <node x="0.0" y="1648.0">jdk</node>
+    <node x="434.0" y="1574.0">META-INF</node>
+    <node x="56.314814814814895" y="1383.0">MainClass</node>
+    <node x="803.0" y="1574.0">groovy</node>
+    <node x="0.0" y="436.0">Expression</node>
+    <node x="825.7002314814815" y="639.0">Sin</node>
+    <node x="1382.2002314814815" y="0.0">groovyjarjarcommonscli</node>
+    <node x="94.49999999999994" y="639.0">Exp</node>
+    <node x="1096.2002314814815" y="15.867838541666664">groovyjarjarantlr</node>
+    <node x="722.0023148148149" y="190.0">Power</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CreateFac" target="Factor">
+      <point x="78.0" y="-38.5" />
+      <point x="629.9502314814815" y="951.0" />
+      <point x="983.2002314814815" y="951.0" />
+      <point x="983.2002314814815" y="130.0" />
+      <point x="618.375" y="130.0" />
+      <point x="55.125" y="50.0" />
+    </edge>
+    <edge source="CreateFac" target="Sin">
+      <point x="42.0" y="-38.5" />
+      <point x="593.9502314814815" y="921.0" />
+      <point x="850.2002314814815" y="921.0" />
+      <point x="-49.0" y="116.0" />
+    </edge>
+    <edge source="Exp" target="Ter">
+      <point x="33.60000000000002" y="-116.0" />
+      <point x="212.09999999999997" y="609.0" />
+      <point x="342.3877314814816" y="609.0" />
+      <point x="-55.125" y="93.0" />
+    </edge>
+    <edge source="Exp" target="Factor">
+      <point x="0.0" y="-116.0" />
+      <point x="178.49999999999994" y="120.0" />
+      <point x="495.87499999999994" y="120.0" />
+      <point x="-67.375" y="50.0" />
+    </edge>
+    <edge source="Ter" target="Constant">
+      <point x="49.0" y="-93.0" />
+      <point x="446.5127314814816" y="383.0" />
+      <point x="579.5023148148149" y="383.0" />
+      <point x="-49.0" y="81.5" />
+    </edge>
+    <edge source="MainClass" target="FindOptional">
+      <point x="93.33333333333337" y="-73.0" />
+      <point x="261.64814814814827" y="1363.0" />
+      <point x="805.7515432098766" y="1363.0" />
+      <point x="58.75" y="117.5" />
+    </edge>
+    <edge source="FindOptional" target="Constant">
+      <point x="29.375" y="-117.5" />
+      <point x="776.3765432098766" y="1068.0" />
+      <point x="994.2002314814815" y="1068.0" />
+      <point x="994.2002314814815" y="383.0" />
+      <point x="677.5023148148149" y="383.0" />
+      <point x="49.0" y="81.5" />
+    </edge>
+    <edge source="CreateFac" target="Constant">
+      <point x="18.0" y="-38.5" />
+      <point x="569.9502314814815" y="901.0" />
+      <point x="628.5023148148149" y="901.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="Constant" target="Factor">
+      <point x="0.0" y="-81.5" />
+      <point x="628.5023148148149" y="170.0" />
+      <point x="569.375" y="170.0" />
+      <point x="6.125" y="50.0" />
+    </edge>
+    <edge source="Sin" target="Factor">
+      <point x="36.75" y="-116.0" />
+      <point x="935.9502314814815" y="619.0" />
+      <point x="893.0" y="619.0" />
+      <point x="893.0" y="140.0" />
+      <point x="606.125" y="140.0" />
+      <point x="42.875" y="50.0" />
+    </edge>
+    <edge source="Sin" target="CreateFac">
+      <point x="0.0" y="116.0" />
+      <point x="899.2002314814815" y="931.0" />
+      <point x="605.9502314814815" y="931.0" />
+      <point x="54.0" y="-38.5" />
+    </edge>
+    <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
+      <point x="61.75" y="14.5" />
+      <point x="1567.4502314814815" y="59.0" />
+      <point x="1352.2002314814815" y="59.0" />
+      <point x="1352.2002314814815" y="7.25" />
+      <point x="-123.5" y="-7.25" />
+    </edge>
+    <edge source="CreateFac" target="Exp">
+      <point x="-78.0" y="-38.5" />
+      <point x="473.9502314814816" y="951.0" />
+      <point x="234.49999999999994" y="951.0" />
+      <point x="56.0" y="116.0" />
+    </edge>
+    <edge source="CreateFac" target="Power">
+      <point x="30.0" y="-38.5" />
+      <point x="581.9502314814815" y="911.0" />
+      <point x="795.5023148148149" y="911.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="Expression" target="Term">
+      <point x="-42.0" y="-60.0" />
+      <point x="42.0" y="373.0" />
+      <point x="209.37499999999994" y="373.0" />
+      <point x="-61.125" y="48.5" />
+    </edge>
+    <edge source="FindOptional" target="CreateFac">
+      <point x="-29.375" y="-117.5" />
+      <point x="717.6265432098766" y="1068.0" />
+      <point x="593.9502314814815" y="1068.0" />
+      <point x="42.0" y="38.5" />
+    </edge>
+    <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
+      <point x="0.0" y="14.5" />
+      <point x="1201.7002314814815" y="74.86783854166666" />
+      <point x="1066.2002314814815" y="74.86783854166666" />
+      <point x="1066.2002314814815" y="30.367838541666664" />
+      <point x="-105.5" y="-0.0" />
+    </edge>
+    <edge source="Ter" target="CreateFac">
+      <point x="55.125" y="93.0" />
+      <point x="452.6377314814816" y="619.0" />
+      <point x="439.7627314814816" y="619.0" />
+      <point x="439.7627314814816" y="911.0" />
+      <point x="521.9502314814815" y="911.0" />
+      <point x="-30.0" y="-38.5" />
+    </edge>
+    <edge source="Term" target="Factor">
+      <point x="0.0" y="-48.5" />
+      <point x="270.49999999999994" y="130.0" />
+      <point x="508.12499999999994" y="130.0" />
+      <point x="-55.125" y="50.0" />
+    </edge>
+    <edge source="Term" target="CreateFac">
+      <point x="61.125" y="48.5" />
+      <point x="331.62499999999994" y="383.0" />
+      <point x="305.69868827160496" y="383.0" />
+      <point x="305.69868827160496" y="931.0" />
+      <point x="497.9502314814816" y="931.0" />
+      <point x="-54.0" y="-38.5" />
+    </edge>
+    <edge source="Ter" target="Factor">
+      <point x="0.0" y="-93.0" />
+      <point x="397.5127314814816" y="383.0" />
+      <point x="383.51118827160496" y="383.0" />
+      <point x="383.51118827160496" y="150.0" />
+      <point x="532.625" y="150.0" />
+      <point x="-30.625" y="50.0" />
+    </edge>
+    <edge source="Cos" target="Factor">
+      <point x="36.75" y="-116.0" />
+      <point x="564.2002314814815" y="619.0" />
+      <point x="521.25" y="619.0" />
+      <point x="521.25" y="170.0" />
+      <point x="557.125" y="170.0" />
+      <point x="-6.125" y="50.0" />
+    </edge>
+    <edge source="CreateFac" target="Cos">
+      <point x="-18.0" y="-38.5" />
+      <point x="533.9502314814815" y="901.0" />
+      <point x="478.4502314814816" y="901.0" />
+      <point x="-49.0" y="116.0" />
+    </edge>
+    <edge source="Exp" target="Expression">
+      <point x="-67.20000000000005" y="-116.0" />
+      <point x="111.2999999999999" y="619.0" />
+      <point x="105.0" y="619.0" />
+      <point x="21.0" y="60.0" />
+    </edge>
+    <edge source="MainClass" target="Expression">
+      <point x="-93.33333333333337" y="-73.0" />
+      <point x="74.98148148148152" y="1363.0" />
+      <point x="44.31404320987656" y="1363.0" />
+      <point x="44.31404320987656" y="619.0" />
+      <point x="21.0" y="619.0" />
+      <point x="-63.0" y="60.0" />
+    </edge>
+    <edge source="FindOptional" target="Factor">
+      <point x="88.12499999999997" y="-117.5" />
+      <point x="835.1265432098766" y="1078.0" />
+      <point x="1005.2002314814815" y="1078.0" />
+      <point x="1005.2002314814815" y="120.0" />
+      <point x="630.625" y="120.0" />
+      <point x="67.375" y="50.0" />
+    </edge>
+    <edge source="Cos" target="CreateFac">
+      <point x="0.0" y="116.0" />
+      <point x="527.4502314814815" y="891.0" />
+      <point x="545.9502314814815" y="891.0" />
+      <point x="-6.0" y="-38.5" />
+    </edge>
+    <edge source="Power" target="Factor">
+      <point x="0.0" y="-81.5" />
+      <point x="795.5023148148149" y="160.0" />
+      <point x="581.625" y="160.0" />
+      <point x="18.375" y="50.0" />
+    </edge>
+    <edge source="MainClass" target="Exp">
+      <point x="18.66666666666663" y="-73.0" />
+      <point x="186.98148148148152" y="1363.0" />
+      <point x="163.81404320987656" y="1363.0" />
+      <point x="163.81404320987656" y="951.0" />
+      <point x="178.49999999999994" y="951.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6935550935550935" x="960.6315035506373" y="1020.6408531199254" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

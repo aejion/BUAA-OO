@@ -1,0 +1,28 @@
+Total class count is 5.
+Ok, operation count of class "ClassBottom" is 7.
+Failed, class "ClassBottem" not found
+Ok, operation count of class "ClassBottom" is 0.
+Ok, operation count of class "ClassBottom" is 2.
+Ok, operation count of class "ClassBottom" is 1.
+Ok, operation count of class "ClassBottom" is 6.
+Ok, attribute count of class "ClassBottom" is 5.
+Ok, attribute count of class "ClassBottom" is 3.
+Ok, association count of class "ClassTop" is 1.
+Ok, association count of class "ClassMiddle" is 5.
+Ok, association count of class "ClassBottom" is 7.
+Ok, associated classes of class "ClassTop" are ().
+Ok, associated classes of class "ClassMiddle" are (ClassBottom, ClassMiddle).
+Ok, associated classes of class "ClassBottom" are (ClassBottom, ClassMiddle).
+Ok, operation visibility of method "hashCode" in class "ClassBottom" is public: 1, protected: 0, private: 0, package-private: 0.
+Failed, duplicated attribute "privateValue" in class "ClassBottom".
+Ok, attribute "protectedValue" in class "ClassBottom"'s visibility is protected.
+Ok, attribute "publicValue" in class "ClassBottom"'s visibility is public.
+Ok, attribute "packagePrivateValue" in class "ClassBottom"'s visibility is package-private.
+Ok, top base class of class "ClassBottom" is ClassTop.
+Ok, top base class of class "ClassMiddle" is ClassTop.
+Ok, implement interfaces of class "ClassBottom" are (InterfaceAnother, InterfaceMiddle, InterfaceTop).
+Ok, implement interfaces of class "ClassMiddle" are (InterfaceAnother, InterfaceMiddle, InterfaceTop).
+Ok, implement interfaces of class "ClassTop" are (InterfaceTop).
+No, attribute packagePrivateValue in ClassBottom, publicValue in ClassBottom, protectedValue in ClassMiddle, are not hidden.
+No, attribute protectedValue in ClassMiddle, are not hidden.
+Yes, information of class "ClassTop" is hidden.

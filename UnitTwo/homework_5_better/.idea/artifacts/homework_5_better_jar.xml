@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="homework_5_better:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/homework_5_better_jar</output-path>
+    <root id="archive" name="homework_5_better.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="homework_5_better" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/elevator-input.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/timable-output.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

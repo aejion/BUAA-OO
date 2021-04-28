@@ -1,0 +1,12 @@
+@startuml
+MainClass -> Input:创建启动输入线程
+MainClass -> Elevator: 创建启动初始电梯
+activate Input
+Input -> Elevator:创建启动新的电梯线程
+Input -> Elevator:接受新的请求，唤醒电梯线程
+deactivate Input
+Elevator -> Control:将换乘人员给调度器
+Control --> Elevator:进行换乘人员的分配
+Shut --> Elevator:控制线程结束
+Elevator -> Shut:告诉电梯状态
+@enduml
